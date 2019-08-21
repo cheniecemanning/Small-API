@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS plants;
+CREATE TABLE plants(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, scientificName TEXT, description TEXT, image TEXT, wateringFrequency TEXT);
+INSERT INTO plants(name, scientificName, description, image, wateringFrequency) VALUES('Rapunzel Devils Ivy', 'Epipremnum aureum', 'Epipremnum aureum commonly called golden pothos or devils ivy, is native to the Solomon Islands. It is a climbing vine that produces abundant yellow-marbled foliage.', 'https://res.cloudinary.com/patch-gardens/image/upload/c_fill,f_auto,h_840,q_auto:good,w_840/v1564152528/products/devils-ivy-12cfff.jpg', 'Once every two weeks');
